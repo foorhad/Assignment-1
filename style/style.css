@@ -2,8 +2,13 @@ body {
     font-family: Raleway;
 }
 
+main {
+    background-color: #d7e9ee;
+}
+
 nav {
     background-image: url(../Assets/Hero-bg.png);
+    width: 100%;
 }
 
 /* button styles */
@@ -157,3 +162,48 @@ main img {
 .mrgin {
     margin-bottom: 20px;
 }
+
+.touch-section {
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    margin-top: 100px;
+    gap: 100px;
+}
+
+.touch-sec-title {
+    font-size: 80px;
+    font-weight: bold;
+    width: 500px;
+}
+
+.touch-form-sec {
+    width: 497px;
+}
+
+form {
+    width: 50%;
+}
+
+input,
+textarea {
+    border-radius: 5px;
+    font-size: 16px;
+    display: block;
+    height: 15px;
+    width: 100%;
+    padding: 18px 50px 18px 30px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+textarea {
+    height: 50px;
+}
+
+.btns {
+    display: block;
+    width: 320px;
+}
+
+/* footer-title */
