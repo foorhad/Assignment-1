@@ -100,3 +100,60 @@ main img {
     height: 121px;
     gap: 0px;
 }
+
+.text-center {
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.feedback-sec {
+    display: flex;
+    gap: 20px;
+}
+
+.feedback {
+    border-radius: 14px;
+    background-color: rgba(223, 208, 208, 0.452);
+    padding: 24px;
+}
+
+.image-with-info img {
+    width: 40px;
+    height: 40px;
+}
+
+.image-with-info {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+}
+
+.info .name,
+.dte {
+    font-size: 15px;
+}
+
+.users-feedback-sec {
+    margin: 137px 150px;
+}
+
+
+.sec-container img {
+    width: 600px;
+    height: 250px;
+}
+
+.sec-container {
+    text-align: center;
+    background-color: #e7c0c0;
+    width: 900px;
+    margin: auto 70px;
+    border-radius: 14px;
+    padding: 70px 150px;
+}
+
+.mrgin {
+    margin-bottom: 20px;
+}
