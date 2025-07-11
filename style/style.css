@@ -33,7 +33,8 @@ nav {
     margin: 158px auto 200px auto;
 }
 
-.nav-section h2 {
+.nav-section h2,
+.footer-title {
     font-size: 34px;
     font-weight: bold;
     color: #4E47FF;
@@ -207,3 +208,24 @@ textarea {
 }
 
 /* footer-title */
+.footer-title {
+    font-size: 100px;
+    font-weight: 800px;
+}
+
+footer {
+    text-align: center;
+    width: 530px;
+    margin: 100px 400px;
+}
+
+footer p {
+    font-size: 15px;
+    color: #8987A1;
+}
+
+footer .links a {
+    text-decoration: none;
+    color: #8987A1;
+    margin-right: 10px;
+}
