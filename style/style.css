@@ -1,14 +1,18 @@
 body {
     font-family: Raleway;
+
+
 }
 
-main {
-    background-color: #d7e9ee;
+main,
+header {
+    background-color: #c1e7ec;
 }
 
-nav {
+.header-sec {
     background-image: url(../Assets/Hero-bg.png);
-    width: 100%;
+    background-position: cover;
+    max-width: 100%;
 }
 
 /* button styles */
@@ -63,7 +67,7 @@ nav {
 .action-sec .left-side .sub-title {
     font-size: 24px;
     font-weight: 400px;
-    color: #252432;
+    color: #8987A1;
     margin: 23px 0px 23px 0px;
 }
 
@@ -141,6 +145,11 @@ main img {
     font-size: 15px;
 }
 
+.dte {
+    color: #8987A1;
+    font-weight: 400px;
+}
+
 .users-feedback-sec {
     margin: 137px 150px;
 }
@@ -196,6 +205,8 @@ textarea {
     padding: 18px 50px 18px 30px;
     margin-bottom: 20px;
     border: none;
+    font-weight: 800px;
+    background-color: #f7f1f1f6;
 }
 
 textarea {
@@ -205,6 +216,11 @@ textarea {
 .btns {
     display: block;
     width: 320px;
+}
+
+form {
+    font-weight: bold;
+    font-family: inter;
 }
 
 /* footer-title */
