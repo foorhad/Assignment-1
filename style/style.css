@@ -32,6 +32,7 @@ nav {
     font-size: 34px;
     font-weight: bold;
     color: #4E47FF;
+    font-family: Inter;
 }
 
 .banner-section .heading-sec {
@@ -67,4 +68,35 @@ nav {
 main img {
     max-width: 100%;
     border-radius: 48px;
+}
+
+/* productive section */
+.users-section {
+    background-color: rgba(14, 18, 235, 0.1);
+    width: 800px;
+    height: 306px;
+    margin: 50px 140px 50px 150px;
+    text-align: center;
+    padding: 50px 140px;
+    border-radius: 24px;
+}
+
+.users-section .productive-section {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+
+.sec h1 {
+    font-size: 80px;
+    font-weight: bold;
+    font-family: inter;
+    color: #4E47FF;
+}
+
+.sec {
+    width: 180px;
+    height: 121px;
+    gap: 0px;
 }
